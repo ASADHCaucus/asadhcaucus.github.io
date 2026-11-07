@@ -17,7 +17,7 @@ export default function Home() {
       <section className="flex flex-row items-end justify-end gap-4 pt-20 px-20 bg-[linear-gradient(to_bottom,transparent,rgba(0,0,0,0.35)),url(https://placehold.co/600x400)] bg-cover bg-center h-150">
 
         <div className="flex flex-col pb-30">
-          <h1 className="text-4xl font-bold text-right text-white">Welcome to the ASA Digital Humanities Caucus</h1>
+          <h1 className="text-4xl font-bold text-right text-white max-w-3xl">Welcome to the American Studies Association Digital Humanities Caucus</h1>
           <p className="text-lg text-right text-white">Connecting scholars in the field of digital humanities.</p>
         </div>
       </section>
@@ -82,18 +82,22 @@ export default function Home() {
       </section>
 
       {/* get involved */}
-      <section className="mt-20 mx-auto w-full max-w-5xl">
-        <h2 className="text-3xl font-bold mb-6">Get Involved</h2>
+      <section className="mt-20 mx-auto w-full max-w-6xl">
+
         <div className="flex flex-row gap-4">
-          <p className="text-lg leading-7 text-muted-foreground">
-            All are welcomed and encouraged to join the DH Caucus! Our membership includes scholars from across a wide range of institutions and experiences, including university faculty and staff, K-12 educators, graduate students, independent scholars, and activists, as well as working professionals from outside the academy. The DH Caucus strives to be an inclusive environment.
-          </p>
+          <div className="flex flex-col">
+            <h2 className="text-3xl font-bold mb-6">Get Involved</h2>
+            <p className="text-lg leading-7 text-muted-foreground">
+              All are welcomed and encouraged to join the DH Caucus! Our membership includes scholars from across a wide range of institutions and experiences, including university faculty and staff, K-12 educators, graduate students, independent scholars, and activists, as well as working professionals from outside the academy. The DH Caucus strives to be an inclusive environment.
+            </p>
+          </div>
+
           <img className="flex-1 mt-4 object-cover" src="https://placehold.co/400x300" alt="Get Involved" />
         </div>
       </section>
 
       {/* about section */}
-      <section className="mt-20 mx-auto w-full max-w-5xl">
+      <section className="mt-20 mx-auto w-full max-w-6xl">
         <h2 className="text-3xl font-bold mb-6">About the Caucus</h2>
         <p className="text-lg leading-7 text-muted-foreground">
           The ASA Digital Humanities Caucus is dedicated to connecting scholars in the field of digital humanities.
