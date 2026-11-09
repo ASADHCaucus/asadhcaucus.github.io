@@ -45,24 +45,44 @@ const leadershipTeam: LeadershipMember[] = [
         department: "Music",
 
         bio: "Nic Vigilante (they/them) is an ethnographer and theorist whose work explores performance, sound, virtuality, and queer Asian American aesthetics. They are currently a PhD Candidate in Music & Sound Studies at Cornell University, where they are also a Dean’s Excellence Fellow and graduate affiliate with the Media Studies and Feminist, Gender, and Sexuality Studies programs. Their dissertation, titled “The Sonic Unreal,” is an interactive web platform exploring music and performance at the interstices of Los Angeles’ Gaysian nightlife community, esports fandoms, and musical communities in virtual worlds. As an award-winning scholar and pedagogue in the digital humanities, Nic’s work bridges multimodal scholarship, digital ethnography, and the cultural study of emerging technologies such as generative AI, blockchain, and virtual reality. In 2026, Nic was awarded the Ian Lancashire Award for Graduate Student Promise by the Canadian Society for Digital Humanities. They hold the Canadian Certificate in Digital Humanities and were a 2025 Summer Graduate Digital Humanities Fellow at Cornell University and a 2026 fellow at Vassar College’s Institute for Liberal Arts Digital Scholarship."
+    },
+    {
+        name: "Ngozi Harrison",
+        photoUrl: "../leadership-headshots/ngozi-harrison.jpg",
+        role: "Member at Large",
+        title: "PhD Candidate",
+        institution: "University of California, Los Angeles",
+        department: "Information Studies",
+        bio: "Ngozi Harrison is a Ph.D. candidate at the University of California, Los Angeles, in Information Studies, whose research primarily investigates the relationship between machine learning, quantitative and computational methods, and society. His work critiques algorithmic culture and computational reason and sits at the intersection of Black Studies, Critical Quantitative and Computational Methods, and Critical Information Studies. He is currently working on his dissertation proposal, which critically examines the underlying values, norms, and assumptions of machine learning practice to develop new frameworks for liberatory technical practice and justice-oriented technologies."
+    },
+    {
+        name: "Nadejda Webb",
+        photoUrl: "../leadership-headshots/nadejda-webb.jpg",
+        role: "Past Chair, 2025-2026",
+        title: "Visiting Assistant Professor",
+        institution: "Johns Hopkins University",
+        department: "The Center for Digital Humanities",
+        bio: "Nadejda I. Webb (she/her/they) is the Assistant Director of LifexCode: Digital Humanities Against Enclosure and a Visiting Assistant Professor at the Center for Digital Humanities. She recently founded the We Live Language (WLL) lab within Black Beyond Data, a Computational Humanities and Social Sciences ecosystem. The WLL lab is centered on the writings and spoken word of Afro-diasporic poets, authors, and philosophers, exploring the intricate relationship between language and power. Webb’s teaching and research interests encompass 20th and 21st-century African-American and Post-Colonial literature, as well as digital humanities, imaginaries, and belonging. Webb’s research has been supported by the Andrew W. Mellon Foundation, the Social Science Research Council, the American Council of Learned Societies, Columbia University’s Center for Oral History, the Center for Africana Studies at Johns Hopkins, the USC Annenberg School for Communication and Journalism, and Vanderbilt University. She holds a B.A. in English Language and Literature from CUNY Hunter College and a joint Ph.D. in English and Comparative Media Analysis and Practice from Vanderbilt."
     }
 ];
 
 export default function LeadershipPage() {
     return (
-        <main className=" min-w-full pt-20 px-60">
-            <span className="text-4xl font-bold pb-10">Leadership Team, 2026-2027</span>
-            <div className="grid grid-cols-3 gap-20 pt-10">
-                {leadershipTeam.map((member) => (
-                    <div key={member.name} className="text-2xl">
-                        <img src={member.photoUrl ?? "https://placehold.co/400x600"} alt={member.name} className="mb-5 aspect-[2/3] w-full object-cover object-top" />
-                        <p className=" text-lg font-bold">{member.name}</p>
-                        <p className="text-lg">{member.role}</p>
-                        <p className="text-lg">{member.title}</p>
-                        <p className="text-lg">{member.institution}, {member.department}</p>
-                        <p className="text-lg pt-5">{member.bio}</p>
-                    </div>
-                ))}
+        <main className="w-full flex-1 pb-20">
+            <div className="mx-auto w-full max-w-7xl px-4 py-12 sm:px-6 sm:py-16 lg:px-8 lg:py-20">
+                <h1 className="text-4xl font-bold pb-10">Leadership Team, 2026-2027</h1>
+                <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-3 lg:gap-20">
+                    {leadershipTeam.map((member) => (
+                        <div key={member.name} className="text-2xl">
+                            <img src={member.photoUrl ?? "https://placehold.co/400x600"} alt={member.name} className="mb-5 aspect-[2/3] w-full object-cover object-top" />
+                            <p className=" text-lg font-bold">{member.name}</p>
+                            <p className="text-lg">{member.role}</p>
+                            <p className="text-lg">{member.title}</p>
+                            <p className="text-lg">{member.institution}, {member.department}</p>
+                            <p className="text-lg pt-5">{member.bio}</p>
+                        </div>
+                    ))}
+                </div>
             </div>
         </main>
     );

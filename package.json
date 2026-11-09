@@ -4,6 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "cms": "decap-server",
+    "dev:cms": "concurrently --kill-others --names site,cms \"npm run dev\" \"npm run cms\"",
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
@@ -14,6 +16,7 @@
     "@tailwindcss/postcss": "^4.3.5",
     "class-variance-authority": "^0.7.1",
     "cn": "^0.5.2",
+    "csv-parse": "^6.1.0",
     "decap-cms-app": "^3.17.3",
     "embla-carousel-react": "^8.6.0",
     "gray-matter": "^4.0.3",

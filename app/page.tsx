@@ -12,9 +12,9 @@ const newsPlaceholder =
 
 export default function Home() {
   return (
-    <div className="pb-10">
+    <main className="w-full flex-1 pb-20">
       {/* Hero Section */}
-      <section className="flex flex-row items-end justify-end gap-4 pt-20 px-20 bg-[linear-gradient(to_bottom,transparent,rgba(0,0,0,0.35)),url(https://placehold.co/600x400)] bg-cover bg-center h-150">
+      <section className="flex flex-row items-end justify-end gap-4 pt-20 px-4 sm:px-6 lg:px-8 bg-[linear-gradient(to_bottom,transparent,rgba(0,0,0,0.35)),url(https://placehold.co/600x400)] bg-cover bg-center h-150">
 
         <div className="flex flex-col pb-30">
           <h1 className="text-4xl font-bold text-right text-white max-w-3xl">Welcome to the American Studies Association Digital Humanities Caucus</h1>
@@ -32,7 +32,7 @@ export default function Home() {
             id="latest-news-heading"
             className="text-3xl font-bold tracking-tight sm:text-4xl"
           >
-            Latest News
+            Latest News and Critical Musings
           </h2>
         </div>
         <Carousel
@@ -82,9 +82,9 @@ export default function Home() {
       </section>
 
       {/* get involved */}
-      <section className="mt-20 mx-auto w-full max-w-6xl">
+      <section className="mt-20 mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8">
 
-        <div className="flex flex-row gap-4">
+        <div className="flex flex-col gap-4 sm:flex-row">
           <div className="flex flex-col">
             <h2 className="text-3xl font-bold mb-6">Get Involved</h2>
             <p className="text-lg leading-7 text-muted-foreground">
@@ -97,12 +97,21 @@ export default function Home() {
       </section>
 
       {/* about section */}
-      <section className="mt-20 mx-auto w-full max-w-6xl">
+      <section className="mt-20 mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl font-bold mb-6">About the Caucus</h2>
         <p className="text-lg leading-7 text-muted-foreground">
           The ASA Digital Humanities Caucus is dedicated to connecting scholars in the field of digital humanities.
         </p>
+        <p className="text-lg">
+          Our Pillars
+        </p>
+        <ul className="list-disc list-inside text-lg">
+          <li>Critical Race & Digital Studies</li>
+          <li>AI Ethics & Algorithmic Justice</li>
+          <li>Computational Methods</li>
+          <li>Digital Archival Practice</li>
+        </ul>
       </section>
-    </div>
+    </main>
   );
 }
