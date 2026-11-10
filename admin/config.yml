@@ -1,0 +1,32 @@
+backend:
+  name: github
+  repo: ASADHCaucus/asadhcaucus.github.io
+  branch: main
+
+local_backend: true
+
+media_folder: public/uploads
+public_folder: /uploads
+
+collections:
+  - name: posts
+    label: Blog Posts
+    folder: content/posts
+    create: true
+    extension: md
+    format: yaml-frontmatter
+    slug: "{{slug}}"
+    fields:
+      - { label: Title, name: title, widget: string }
+      - label: Date
+        name: date
+        widget: datetime
+        format: "YYYY-MM-DD"
+        time_format: false
+      - { label: Author, name: author, widget: string, required: false }
+      - { label: Author Bio, name: bio, widget: text, required: false }
+      - { label: Description, name: desc, widget: text, required: false }
+      - { label: Image, name: image, widget: image, required: false }
+      - { label: Tags, name: tags, widget: list, required: false }
+      - { label: Draft, name: draft, widget: boolean, default: true }
+      - { label: Body, name: body, widget: markdown }
