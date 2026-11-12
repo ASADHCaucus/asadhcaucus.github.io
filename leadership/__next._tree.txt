@@ -1,13 +1,7 @@
 :HL["/_next/static/chunks/43dh_i3vehvfb.css","style"]
 :HL["/_next/static/media/07a39a8a4660cc7c-s.p.0r6juujl39pe6.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/605ce01b664af129-s.p.0wgildi0cnwt9.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["../leadership-headshots/kevin-winstead.jpg","image"]
-:HL["../leadership-headshots/david-adelman.jpg","image"]
-:HL["../leadership-headshots/chalisa-budhai.jpg","image"]
-:HL["../leadership-headshots/nic-vigilante.jpg","image"]
-:HL["../leadership-headshots/ngozi-harrison.jpg","image"]
-:HL["../leadership-headshots/nadejda-webb.jpg","image"]
-:HL["../leadership-headshots/khanh-vo.jpg","image"]
+:HL["https://placehold.co/400x600","image"]
 2:[["children",{"s":"__PAGE__","h":160}]]
 1:[["children",{"s":"leadership","h":96,"c":"$Q2"}]]
-0:{"b":"LUa-m34iAHO-qkRpjun9A","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
+0:{"b":"uykFb_Z9gIjkdM1BZ_Z6c","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
