@@ -63,6 +63,15 @@ const leadershipTeam: LeadershipMember[] = [
         institution: "Johns Hopkins University",
         department: "The Center for Digital Humanities",
         bio: "Nadejda I. Webb (she/her/they) is the Assistant Director of LifexCode: Digital Humanities Against Enclosure and a Visiting Assistant Professor at the Center for Digital Humanities. She recently founded the We Live Language (WLL) lab within Black Beyond Data, a Computational Humanities and Social Sciences ecosystem. The WLL lab is centered on the writings and spoken word of Afro-diasporic poets, authors, and philosophers, exploring the intricate relationship between language and power. Webb’s teaching and research interests encompass 20th and 21st-century African-American and Post-Colonial literature, as well as digital humanities, imaginaries, and belonging. Webb’s research has been supported by the Andrew W. Mellon Foundation, the Social Science Research Council, the American Council of Learned Societies, Columbia University’s Center for Oral History, the Center for Africana Studies at Johns Hopkins, the USC Annenberg School for Communication and Journalism, and Vanderbilt University. She holds a B.A. in English Language and Literature from CUNY Hunter College and a joint Ph.D. in English and Comparative Media Analysis and Practice from Vanderbilt."
+    },
+    {
+        name: "Khanh Vo",
+        photoUrl: "../leadership-headshots/khanh-vo.jpg",
+        role: " Digital Humanities Specialist, Lecturer in Humanities",
+        title: "Assistant Professor",
+        institution: "Brown University",
+        department: "Cogut Institute for the Humanities",
+        bio: "Khanh Vo is Digital Humanities Specialist at the Brown University Library’s Center for Digital Scholarship (CDS). She is the project manager and CDS lead for several faculty-driven projects, such as “Contemporary Monuments to the Slave Past” and “Lives and Pseudonyms of Literary Scholars, 1849–1949.” She is a historian, digital humanist, and educator in American history, digital and spatial humanities, STS, games studies, and material culture. Her primary research explores machine labor as it pertains to questions of race, gender, and design. Her research and collaborative writings have been published in Zoomland: Exploring Scale in Digital History and Humanities and the Journal of Digital Media Management (Walter de Gruyter, 2023). She was the 2022–23 Digital Humanities Postdoctoral Fellow at the University of Toronto’s Jackman Humanities Institute and Critical Digital Humanities Initiative. She also served as chair for the ASA Digital Humanities Caucus and is a digital projects reviewer editor for the American Quarterly. She completed her doctorate in American Studies in 2021 at the College of William & Mary."
     }
 ];
 
