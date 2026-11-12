@@ -11,7 +11,7 @@ type LeadershipMember = {
 const leadershipTeam: LeadershipMember[] = [
     {
         name: "Kevin Winstead",
-        photoUrl: "../leadership-headshots/kevin-winstead.jpg",
+        // photoUrl: "../leadership-headshots/kevin-winstead.jpg",
         role: "Chair",
         title: "Professor",
         institution: "University of Florida",
@@ -21,7 +21,7 @@ const leadershipTeam: LeadershipMember[] = [
     {
         name: "David Adelman",
         title: "Lecturer",
-        photoUrl: "../leadership-headshots/david-adelman.jpg",
+        // photoUrl: "../leadership-headshots/david-adelman.jpg",
         role: "Vice Chair",
         institution: "University of Michigan",
         department: "Digital Studies Institute",
@@ -29,7 +29,7 @@ const leadershipTeam: LeadershipMember[] = [
     },
     {
         name: "Chalisa Budhai",
-        photoUrl: "../leadership-headshots/chalisa-budhai.jpg",
+        // photoUrl: "../leadership-headshots/chalisa-budhai.jpg",
         role: "Member at Large",
         title: "Underground Railroad Project Research Assistant",
         institution: "National Parks Service",
@@ -38,7 +38,7 @@ const leadershipTeam: LeadershipMember[] = [
     },
     {
         name: "Nic Vigilante",
-        photoUrl: "../leadership-headshots/nic-vigilante.jpg",
+        // photoUrl: "../leadership-headshots/nic-vigilante.jpg",
         role: "Member at Large",
         title: "PhD Candidate",
         institution: "Cornell University",
@@ -48,7 +48,7 @@ const leadershipTeam: LeadershipMember[] = [
     },
     {
         name: "Ngozi Harrison",
-        photoUrl: "../leadership-headshots/ngozi-harrison.jpg",
+        //photoUrl: "../leadership-headshots/ngozi-harrison.jpg",
         role: "Member at Large",
         title: "PhD Candidate",
         institution: "University of California, Los Angeles",
@@ -57,7 +57,7 @@ const leadershipTeam: LeadershipMember[] = [
     },
     {
         name: "Nadejda Webb",
-        photoUrl: "../leadership-headshots/nadejda-webb.jpg",
+        // photoUrl: "../leadership-headshots/nadejda-webb.jpg",
         role: "Past Chair, 2025-2026",
         title: "Visiting Assistant Professor",
         institution: "Johns Hopkins University",
@@ -66,7 +66,7 @@ const leadershipTeam: LeadershipMember[] = [
     },
     {
         name: "Khanh Vo",
-        photoUrl: "../leadership-headshots/khanh-vo.jpg",
+        // photoUrl: "../leadership-headshots/khanh-vo.jpg",
         role: " Digital Humanities Specialist, Lecturer in Humanities",
         title: "Assistant Professor",
         institution: "Brown University",
